@@ -1,0 +1,27 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/home/blixa/src/nvm/v0.6.15/bin/npm',
+verbose cli   'install',
+verbose cli   '--ws:native' ]
+info using npm@1.1.18
+info using node@v0.6.15
+verbose config file /home/blixa/.npmrc
+verbose config file /home/blixa/src/nvm/v0.6.15/etc/npmrc
+verbose config file /home/blixa/src/nvm/v0.6.15/lib/node_modules/npm/npmrc
+ERR! Couldn't read dependencies.
+ERR! Error: ENOENT, open '/home/blixa/package.json'
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 3.2.0-23-generic-pae
+ERR! command "node" "/home/blixa/src/nvm/v0.6.15/bin/npm" "install" "--ws:native"
+ERR! cwd /home/blixa/src/jswebcam
+ERR! node -v v0.6.15
+ERR! npm -v 1.1.18
+ERR! path /home/blixa/package.json
+ERR! code ENOENT
+ERR! message ENOENT, open '/home/blixa/package.json'
+ERR! errno {}
+verbose exit [ 1, true ]

@@ -52,7 +52,7 @@
                 socket.on('update', function(data) {
                     receiver.src = data;
                     log('Received data');
-                    ctx.drawImage(receiver,0,0);
+                    ctx..drawImage(receiver,0,0);
                 });
 
                 /**
